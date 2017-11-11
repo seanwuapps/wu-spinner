@@ -1,8 +1,7 @@
 {
-  "name": "@stencil/starter",
-  "private": true,
+  "name": "wu-spinner",
   "version": "0.0.1",
-  "description": "Stencil App Starter",
+  "description": "Web Up animated loading spinner",
   "files": [
     "dist/"
   ],
@@ -15,8 +14,7 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "next",
-    "@stencil/router": "latest"
+    "@stencil/core": "next"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",

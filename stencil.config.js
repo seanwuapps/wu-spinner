@@ -1,9 +1,9 @@
 exports.config = {
   bundles: [
-    { components: ['my-name'] }
+    { components: ['wu-spinner'] }
   ],
   collections: [
-    { name: '@stencil/router' }
+    // { name: '@stencil/router' }
   ]
 };
 

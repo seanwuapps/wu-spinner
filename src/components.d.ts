@@ -4,33 +4,32 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import '@stencil/router';
+import { WuSpinner as WuSpinner } from './components/wu-spinner/wu-spinner';
 
-import { MyName as MyName } from './components/my-name/my-name';
-
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLWuSpinnerElement extends WuSpinner, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLWuSpinnerElement: {
+  prototype: HTMLWuSpinnerElement;
+  new (): HTMLWuSpinnerElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "wu-spinner": HTMLWuSpinnerElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "wu-spinner": HTMLWuSpinnerElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "wu-spinner": JSXElements.WuSpinnerAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface WuSpinnerAttributes extends HTMLAttributes {
+          mode?: string,
+          color?: string,
         
-          first?: any,
-          last?: any
+          type?: string
       }
   }
 }
