@@ -4,7 +4,7 @@
   "types": "dist/collection/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "browser": "dist/wuspinner.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Web Up animated loading spinner web component",
   "files": [
     "dist/"
@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/seanwuapps/wu-spinner.git"
   },
-  "author": "Ionic Team",
+  "author": "Sean Wu Apps",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seanwuapps/wu-spinner"

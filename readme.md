@@ -3,8 +3,17 @@
 Animated loading spinner web component
 
 # Intall
-npm cdn
-`<script src="https://unpkg.com/...">`
+
+## CDN
+
+Add the script tag in your page
+`<script src="https://unpkg.com/wu-spinner@latest/dist/wuspinner.js"></script>`
+
+## NPM
+
+Run `npm install wu-spinner --save`
+Then `<script src='node_modules/wu-spinner/dist/wuspinner.js></script>`
+
 
 # Usage
 
