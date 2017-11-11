@@ -8,7 +8,7 @@ import { Component, Prop } from '@stencil/core';
 export class WuSpinner {
 
     @Prop() type: string = 'android';
-    @Prop() color: string = 'grey';
+    @Prop() color: string = 'currentColor';
 
     render() {
         switch(this.type){
