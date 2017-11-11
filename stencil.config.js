@@ -1,4 +1,7 @@
 exports.config = {
+  namespace: 'wuspinner',
+  generateDistribution: true,
+  generateWWW: false,
   bundles: [
     { components: ['wu-spinner'] }
   ],

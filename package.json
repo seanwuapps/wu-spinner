@@ -1,6 +1,10 @@
 {
   "name": "wu-spinner",
-  "version": "0.0.2",
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "browser": "dist/wuspinner.js",
+  "version": "0.0.3",
   "description": "Web Up animated loading spinner web component",
   "files": [
     "dist/"
